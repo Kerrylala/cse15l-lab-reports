@@ -1,16 +1,14 @@
 ***##Lab Report 1***
-Horizontal rule:
-
 ***
 Examples of cd:
-1.Running with no argument will gives home directory
-2.Running with a path such as lecture1 will change the directory into specific directory, in this case is the lecture1 directory
+1.Running with no argument will give home directory.
+2.Running with a path argument such as lecture1 will change the directory into specific directory, in this case is the lecture1 directory.
 3.Running with a file argument will cause an error, because cd can be only used as directories.
 Examples of ls:
-1. shows the files and folder in the current directory
-2.
-3.
+1. Running without argument will list the files and directories in the current directory.
+2. Running with a path argument will list the files and directories in the specified directory.
+3. Running with a file argument will list the file if it exist, and it will throw an error if the file does not exist.
 Examples of cat:
-1.shows the content of the file
-2.
-3.
+1. Running with no argument will cause an error that it will wait for the input and respond nothing. In normal practice, cat method will usually use with argument.
+2. Running with a path argument will cause an error because cat is used for file not directory.
+3. Running with a file argument will display the content of specific file.
