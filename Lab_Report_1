@@ -3,14 +3,14 @@ Horizontal rule:
 
 ***
 Examples of cd:
-1.
-2.
-3.
+1.Running with no argument will gives home directory
+2.Running with a path such as lecture1 will change the directory into specific directory, in this case is the lecture1 directory
+3.Running with a file argument will cause an error, because cd can be only used as directories.
 Examples of ls:
-1.
+1. shows the files and folder in the current directory
 2.
 3.
 Examples of cat:
-1.
+1.shows the content of the file
 2.
 3.
