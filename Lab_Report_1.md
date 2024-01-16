@@ -1,9 +1,15 @@
 ***##Lab Report 1***
 ***
 Examples of cd:
-1.Running with no argument will give home directory. In this case, it will not change the directory because it's already in the home directory. ![image](cd_1.png)
-2.Running with a path argument such as lecture1 will change the directory into specific directory, in this case is the lecture1 directory. ![image](cd_2.png)
-3.Running with a file argument will cause an error, because cd can be only used as directories. ![image](cd_3.png)
+
+1.Running with no argument will give home directory. In this case, it will not change the directory because it's already in the home directory. 
+![image](cd_1.png)
+
+2.Running with a path argument such as lecture1 will change the directory into specific directory, in this case is the lecture1 directory. 
+![image](cd_2.png)
+
+3.Running with a file argument will cause an error, because cd can be only used as directories. 
+![image](cd_3.png)
 
 
 Examples of ls:
