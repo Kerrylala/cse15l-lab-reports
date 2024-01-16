@@ -13,4 +13,4 @@ Examples of cat:
 1. Running with no argument will cause an error that it will wait for the input and respond nothing. In normal practice, cat method will usually use with argument. 
 In this case, it will print an error.
 2. Running with a path argument will cause an error because cat is used for file not directory. In this case, it will print an error.
-3. Running with a file argument will display the content of specific file. In this case, 
+3. Running with a file argument will display the content of specific file. In this case, it will print everything in the lecture1 of Hello.java.
