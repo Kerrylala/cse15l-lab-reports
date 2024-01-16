@@ -5,7 +5,7 @@ Examples of cd:
 2.Running with a path argument such as lecture1 will change the directory into specific directory, in this case is the lecture1 directory.
 3.Running with a file argument will cause an error, because cd can be only used as directories.
 Examples of ls:
-1. Running without argument will list the files and directories in the current directory. In this case
+1. Running without argument will list the files and directories in the current directory. In this case, it will list Helloworld.java file and lecture1 directory.
 2. Running with a path argument will list the files and directories in the specified directory.
 3. Running with a file argument will list the file if it exist, and it will throw an error if the file does not exist.
 Examples of cat:
