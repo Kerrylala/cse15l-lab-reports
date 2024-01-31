@@ -1,1 +1,32 @@
-
+private static String chat = "";
+    public String handleRequest(URI url) {
+        if (url.getPath().contains("/add-message?")){
+            String[] parameter = url.getQuery().split("&");
+            String user = null;
+            String message = null;
+            for (String p: parameter){
+                String answer[] = p.split("=");
+                if (answer.length == 2){
+                    String name = answer[0];
+                    String value = answer[1];
+                    if (name.equals("s")){
+                        message = value;
+                    }
+                    if (name.equals("user")){
+                        user = value;
+                    }
+                }     
+            }
+            if (message != null && user != null){
+                chat += String.format("%s: %s\n", user, message);
+                return chat;
+            }
+            else {
+                return "Please give me something";
+            }
+        
+        }
+        else {
+            return "Please start the chat";
+        }
+}
