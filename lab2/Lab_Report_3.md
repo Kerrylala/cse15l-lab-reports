@@ -25,5 +25,8 @@ Part2:
 
 2.![image](1.png) 
 
-3.
+3. For this part, I did everything in the prompt, but there is still password that I need to enter. ![image](31.png) ![image](32.png)![image](33.png)
+
 Part3:
+
+Well, it's a fun of learning that it's just the beginning of programming. In these two labs, I learned to set up servers and develop website. Although it's just the beginning of the course, I felt challenging about java and its coding. It's time to work hard on coding and start the assignments early. 
