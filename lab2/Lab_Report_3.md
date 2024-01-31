@@ -1,5 +1,6 @@
 Part1:
 Code: 
+\n
 Screenshot 1: ![image](s1.png)
 handleRequest(URI url) method of the Handler class is called. 
 The argument to the ~handleRequest~ method is a URI object with the value http://localhost:2100/add-message?s=I%20don%27t%20know%20the%20password&user=wifi.
@@ -14,8 +15,9 @@ The relevant fields remain the same as in the first request: chat, user, and mes
 The chat string has the new message appended, which would be 2B: hitshots\n.
 The user variable takes the value 2B.
 The message variable takes the value hitshots.
+\n
 Part2:
-1.![image](1.png)
-2.![image](2.png)
+1.![image](1.png) \n
+2.![image](2.png) \n
 3.
 Part3:
