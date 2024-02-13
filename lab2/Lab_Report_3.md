@@ -25,7 +25,7 @@ Part2:
 
 2.![image](1.png) 
 
-3. For this part, I did everything in the prompt, but there is still password that I need to enter. ![image](31.png) ![image](32.png)![image](33.png)
+3. ![image](31.png) ![image](32.png)![image](33.png)
 
 Part3:
 
