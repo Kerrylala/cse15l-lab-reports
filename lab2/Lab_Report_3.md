@@ -21,11 +21,11 @@ The message variable takes the value hitshots.
 
 Part2:
 
-1.![image](2.png)  
+1.![image](ls_23.png)  
 
-2.![image](1.png) 
+2.![image](ls_24.png) 
 
-3. ![image](31.png) ![image](32.png)![image](33.png)
+3. ![image](ls_21.png) ![image](ls_22.png)
 
 Part3:
 
