@@ -3,25 +3,30 @@ I choose the ArrayExample Method bugs from Lab 4.
 
 1. Test code cause the method to fail:
  ```
-@Test
-public void newtestReverseInPlace(){
+  @Test
+  public void newtestReverseInPlace(){
     int[] input1 = {1,2,3};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{3,2,1},input1);
+  }
+ @Test
+  public void newtestReversed(){
+    int[] input1 = {1,2,3};
+    assertArrayEquals(new int[]{3,2,1},ArrayExamples.reversed(input1));
   }
 ```
   Explanation:   
   
 2. Test code cause the method not fail: 
 ```
-@Test 
-public void testReverseInPlace() {
+  @Test 
+  public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
-@Test
-public void testReversed() {
+  @Test
+  public void testReversed() {
     int[] input1 = { };
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
