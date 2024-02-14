@@ -63,3 +63,6 @@ public void testReversed() {
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 ```
+  Explanation:  
+3. Symptom:  
+   !
