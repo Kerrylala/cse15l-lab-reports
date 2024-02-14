@@ -40,8 +40,8 @@ The Array Method in Lab 4 is
 ```
 1. Test code cause the method to fail:
  ```
-  @Test
-  public void newtestReverseInPlace(){
+@Test
+public void newtestReverseInPlace(){
     int[] input1 = {1,2,3};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{3,2,1},input1);
@@ -51,13 +51,13 @@ The Array Method in Lab 4 is
 2. Test code cause the method not fail: 
 ```
 @Test 
-	public void testReverseInPlace() {
+public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
-  @Test
-  public void testReversed() {
+@Test
+public void testReversed() {
     int[] input1 = { };
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
