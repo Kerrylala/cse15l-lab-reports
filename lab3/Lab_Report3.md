@@ -14,8 +14,7 @@ I choose the ArrayExample Method bugs from Lab 4.
     int[] input1 = {1,2,3};
     assertArrayEquals(new int[]{3,2,1},ArrayExamples.reversed(input1));
   }
-```
-  Explanation:   
+``` 
   
 2. Test code cause the method not fail: 
 ```
@@ -30,8 +29,7 @@ I choose the ArrayExample Method bugs from Lab 4.
     int[] input1 = { };
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
-```
-  Explanation:  
+```  
 3. Symptom:  
    !
 4. The Bug Before:  
@@ -76,5 +74,13 @@ public class ArrayExamples {
 ```
 The Bug After:  
 ```
-```
 
+```
+Explanation: For the Bug Before: the reverseInplace method will ilterate all the elements in the Arraylist,   
+and change the data of iterate element to data of the size - literate number -1 element. However, during the   
+iteration process, it will change the data in the Arraylist while ilterate through the process, which creates  
+a bug that when iterate the last element, last element should be the first element but first element already become   
+the last. For my test code, it will eventually be {3,2,3} instead of {3,2,1}. The reverse method has a bug that    
+it's 
+           For the Bug After: The reverseInplace method
+  
