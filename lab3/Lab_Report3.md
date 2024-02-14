@@ -47,7 +47,8 @@ public void newtestReverseInPlace(){
     assertArrayEquals(new int[]{3,2,1},input1);
   }
 ```
-  Explanation: 
+  Explanation:   
+  
 2. Test code cause the method not fail: 
 ```
 @Test 
