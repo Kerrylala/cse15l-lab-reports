@@ -74,13 +74,59 @@ public class ArrayExamples {
 ```
 The Bug After:  
 ```
+public class ArrayExamples {
+
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+
+  // Averages the numbers in the array (takes the mean), but leaves out the
+  // lowest number when calculating. Returns 0 if there are no elements or just
+  // 1 element in the array
+  static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
+
+
+}
+
 
 ```
-Explanation: For the Bug Before: the reverseInplace method will ilterate all the elements in the Arraylist,   
-and change the data of iterate element to data of the size - literate number -1 element. However, during the   
-iteration process, it will change the data in the Arraylist while ilterate through the process, which creates  
-a bug that when iterate the last element, last element should be the first element but first element already become   
-the last. For my test code, it will eventually be {3,2,3} instead of {3,2,1}. The reverse method has a bug that    
-it's 
-           For the Bug After: The reverseInplace method
+**Bug Before:**   
+Bug Explanation for `reverseInPlace`: The `reverseInPlace` method is intended to reverse the elements of an ArrayList.  
+The method attempts to iterate over all elements and swap each with the corresponding element from the opposite end of the list (i.e., the element at index size - current index - 1).   
+However, the loop incorrectly continues beyond the midpoint of the list, causing previously swapped elements to be overwritten.  
+As a result, when the iteration reaches the last element, it is supposed to become the first, but the first element has already been swapped to the last position.   
+This leads to a situation where, for example, the array {1, 2, 3} would be incorrectly modified to {3, 2, 3} instead of the expected {3, 2, 1}.  
+Bug Explanation for `reversed`: The `reversed method` contains a bug within its for loop.   
+The intention is to create a new array with elements in reverse order from the original array.   
+However, the bug arises when the elements of the new array are incorrectly assigned to the original array,   
+resulting in the original array being filled with default 0 values (since newArray is initialized but not yet populated).   
+This mistake causes the original array to effectively become empty, while the new array remains unchanged.  
+Bug After:  
+
   
