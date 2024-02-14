@@ -1,5 +1,4 @@
 I choose the Array Method bugs from Lab 4. 
-The Array Method in Lab 4 is 
 
 1. Test code cause the method to fail:
  ```
@@ -30,7 +29,8 @@ public void testReversed() {
 3. Symptom:  
    !
 4. The Bug Before:  
-```public class ArrayExamples {
+```
+public class ArrayExamples {
 
   // Changes the input array to be in reversed order
   static void reverseInPlace(int[] arr) {
