@@ -47,4 +47,18 @@ The Array Method in Lab 4 is
     assertArrayEquals(new int[]{3,2,1},input1);
   }
 ```
-2. Test code cause the method not fail
+  Explanation: 
+2. Test code cause the method not fail: 
+```
+@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+  @Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+```
