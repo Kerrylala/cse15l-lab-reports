@@ -127,6 +127,17 @@ The intention is to create a new array with elements in reverse order from the o
 However, the bug arises when the elements of the new array are incorrectly assigned to the original array,   
 resulting in the original array being filled with default 0 values (since newArray is initialized but not yet populated).   
 This mistake causes the original array to effectively become empty, while the new array remains unchanged.  
-Bug After:  
+**Bug After:**  
+Fixed Explanation for `reverseInPlace`:The correction is applied within the for loop, which now iterates from the first element (index 0) to the midpoint of the array.   
+During each iteration, a temporary variable temp is used to store the element at the current index.   
+This element is then swapped with the corresponding element from the end of the array (at index array length - current index - 1).   
+With this modification, the input array {1, 2, 3} is correctly reversed to {3, 2, 1} through the swapping of elements at the first and last indices.  
+Fixed Explanation for `reversed`: The fix involves adjusting the for loop to correctly assign the elements from the original array to the new array in reversed order.    
+Instead of erroneously modifying the original array, the loop now populates the new array with the elements from the original array in reverse sequence.   
+The method then returns this newly created reversed array. Consequently, for the input original array {1, 2, 3}, the method correctly returns a new array {3, 2, 1}.   
+Part 2  
+
+
+
 
   
