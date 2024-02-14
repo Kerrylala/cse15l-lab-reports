@@ -393,4 +393,7 @@ Boarding the Flights
     In passing through these checkpoints, each of the hijackers would have been screened by a walk-through metal detector calibrated to detect items with at least the metal content of a .22-caliber handgun. Anyone who might have set off that detector would have been screened with a./technical/911report/chapter-1.txt
 ```
 Explanation: This command opens chapter-1.txt and search for the first line starting with an uppercase letter, which is "INSIDE THE FOUR FLIGHTS". This is useful to search first uppercase letter in a file  
-Sources:
+Sources:  
+![Image](lab33.png)
+![Image](lab34.png)
+![Image](lab35.png)
