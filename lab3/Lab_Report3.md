@@ -113,9 +113,8 @@ public class ArrayExamples {
 
 
 }
-
-
 ```
+  
 **Bug Before:**   
 Bug Explanation for `reverseInPlace`: The `reverseInPlace` method is intended to reverse the elements of an ArrayList.  
 The method attempts to iterate over all elements and swap each with the corresponding element from the opposite end of the list (i.e., the element at index size - current index - 1).   
@@ -134,7 +133,9 @@ This element is then swapped with the corresponding element from the end of the 
 With this modification, the input array {1, 2, 3} is correctly reversed to {3, 2, 1} through the swapping of elements at the first and last indices.  
 Fixed Explanation for `reversed`: The fix involves adjusting the for loop to correctly assign the elements from the original array to the new array in reversed order.    
 Instead of erroneously modifying the original array, the loop now populates the new array with the elements from the original array in reverse sequence.   
-The method then returns this newly created reversed array. Consequently, for the input original array {1, 2, 3}, the method correctly returns a new array {3, 2, 1}.   
+The method then returns this newly created reversed array. Consequently, for the input original array {1, 2, 3}, the method correctly returns a new array {3, 2, 1}.    
+
+  
 Part 2  
 I choose `less`  
 Command line: `-N`  
@@ -168,8 +169,9 @@ less -N ./technical/911report/chapter-1.txt
      22     Between 6:45 and 7:40, Atta and Omari, along with Satam al Suqami, Wail al Shehri,     22  and Waleed al Shehri, checked in and boarded American Airlines Flight 11, bound for L
      22 os Angeles. The flight was scheduled to depart at 7:45.
 ```
-Explanation: The less command open the file in "chapter-1.txt" located in the 911report directory, which is helpful to see the lines number of Chapter 1 of 911 report. 
 
+Explanation: The less command open the file in "chapter-1.txt" located in the 911report directory, which is helpful to see the lines number of Chapter 1 of 911 report. 
+  
 ```
 less -N ./technical/biomed/1468-6708-3-1.txt
       5         Introduction
@@ -210,11 +212,13 @@ less -N ./technical/biomed/1468-6708-3-1.txt
      40         provide substantively different results, and which measure
      41         would yield more powerful evaluations of weight
 ```
-Explanation:The less command open the file in "1468-6708-3-1.txt" located in the biomed directory, which is helpful to see the lines number of 1468-6708-3-1 of 911 biomed.   
 
+Explanation:The less command open the file in "1468-6708-3-1.txt" located in the biomed directory, which is helpful to see the lines number of 1468-6708-3-1 of 911 biomed.   
+  
 Command line: `-X`  
 This command allows content remain on the terminal when less is exit
 
+  
 ```
 less -X ./technical/911report/chapter-1.txt
 "WE HAVE SOME PLANES"
@@ -237,7 +241,9 @@ Boarding the Flights
 
     Between 6:45 and 7:40, Atta and Omari, along with Satam al Suqami, Wail al Shehri, and Waleed al Shehri, checked in and boarded American Airlines Flight 11, bound for Los Angeles. The flight was scheduled to depart at 7:45.
 ```
+
 Explanation: The command makes the content of Chapter 1 of 911 report still on the terminal, which is useful when want to use the terminal and also read the content of 911 report Chapter 1
+  
 
 ```
 less -X ./technical/biomed/1468-6708-3-1.txt
@@ -283,10 +289,13 @@ less -X ./technical/biomed/1468-6708-3-1.txt
         provide substantively different results, and which measure
         would yield more powerful evaluations of weight
 ```
+  
 Explanation: The command makes the content of 1468-6708-3-1 of biomed still on the terminal, which is useful when want to use the terminal and also read the content of biomed 1468-6708-3-1.   
 
+  
 Command Line: `+F`
-This command is for see the real time update of the file, it will display the end of the file. 
+This command is for see the real time update of the file, it will display the end of the file.   
+
 ```
 less +F ./technical/biomed/1468-6708-3-1.txt
 YOL would likely be even greater than that shown here.
@@ -332,8 +341,10 @@ YOL would likely be even greater than that shown here.
 
 Waiting for data... (^X or interrupt to abort)
 ```
+
 Explanation: The command send 1468-6708-3-1 to the end for the real time update, but since there is no one modify the data, it will repeat waiting for data until some do ^X and quit. It's useful for real time monitering data of a file. 
 
+  
 ```
 less +F ./technical/911report/chapter-1.txt
 
@@ -357,17 +368,22 @@ lead pilot explained, "I reverted to the Russian threat. . . . I'm thinking crui
 
 
 Waiting for data... (^X or interrupt to abort)
-```  
+```
+
 Explanation: The command send chapter-1 to the end for the real time update, but since there is no one modify the data, it will repeat waiting for data until some do ^X and quit. It's useful for real time monitering data of a file. 
 
+  
 Command Line: `-p`
-This command is for search a specific pattern and jump to the first appear. 
+This command is for search a specific pattern and jump to the first appear.   
+
 ```
 less -pError ./technical/911report/chapter-1.txt
 Pattern not found  (press RETURN)
 ```
+
 Explanation: The command is use for search word 'Error' in the chapter-1.txt, but since there is no word 'Error' in there, it return pattern not found. It's useful when search first 'Error' in a file.  
 
+  
 ```
 less -p'^[A-Z]' ./technical/911report/chapter-1.txt
 INSIDE THE FOUR FLIGHTS
@@ -392,6 +408,7 @@ Boarding the Flights
 
     In passing through these checkpoints, each of the hijackers would have been screened by a walk-through metal detector calibrated to detect items with at least the metal content of a .22-caliber handgun. Anyone who might have set off that detector would have been screened with a./technical/911report/chapter-1.txt
 ```
+
 Explanation: This command opens chapter-1.txt and search for the first line starting with an uppercase letter, which is "INSIDE THE FOUR FLIGHTS". This is useful to search first uppercase letter in a file  
 Sources:  
 ![Image](lab33.png)
