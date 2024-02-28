@@ -32,7 +32,9 @@ I choose the ArrayExample Method bugs from Lab 4.
 ```  
 3. Symptom:  
    ![Image](lab31.png)![Image](lab32.png)
-4. The Bug Before:  
+4. The Bug Before:
+
+  
 ```
 public class ArrayExamples {
 
