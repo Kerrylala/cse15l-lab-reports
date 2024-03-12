@@ -40,8 +40,8 @@ Key Pressed(vim): `/index1 <enter> n n n n n n n n n e r 2 <Esc> <Shift +;> wq! 
 **Step 8** 
 --  
 ![Image](微信图片_20240311213927.png)   
-Explanation: After fixed the code, I reran the tests and found out they all passed. Again, I pressed  
-  <tab> helps me fill in the rest of test.sh.  
+Explanation: After fixed the code, I reran the tests and found out they all passed. Again, I pressed `<tab>` to 
+help me fill in the rest of test.sh.  
   
 **Step 9**   
 --    
