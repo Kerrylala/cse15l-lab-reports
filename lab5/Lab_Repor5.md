@@ -2,8 +2,7 @@
 --    
 
 **Step 1**  
-**Student post**    
-  
+**Student post**
 --  
   
 ![image](微信图片_20240311232854.png)  
