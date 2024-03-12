@@ -3,7 +3,6 @@
 **Step 1**   
 **Student post**
 --  
-![image]()  
 ![image](微信图片_20240311232854.png)  
 ![image](微信图片_20240311232907.png)  
 Hi, I am trying to finish lab4. Therefore, I logged in my ieng6-203 with  
