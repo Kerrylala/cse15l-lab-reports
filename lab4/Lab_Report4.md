@@ -51,6 +51,6 @@ Key Pressed:`bash <space>t <tab> <enter>`
 Explanation: Finally, I first used git add the `ListExample.java` file to stage changes for the next  
 commit, then I used git commit to commit and pushed my staged changes with -m to include my commit message "Update"    
 Key Pressed: `git <space> add <space> <Shift + l> <tab> .java <enter>` , and then  
-`git <space> commit <space> -m <space> <Shift + '> <Shift + U>pdate <Shift + '>  
-<enter>` , and lastly `git <space> push <space> origin <space> main <enter>`  
+`git <space> commit <space> -m <space> <Shift + '> <Shift + U>pdate <Shift + '><enter>` , 
+and lastly `git <space> push <space> origin <space> main <enter>`    
 
