@@ -1,6 +1,6 @@
 **Lab Report 5 Huanchang Gu A17122477**
---    
-
+--      
+  
 **Step 1**    
 
 **Student post**
