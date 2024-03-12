@@ -3,6 +3,9 @@
 **Step 1**   
 **Student post**
 --  
+![image]()  
+![image](微信图片_20240311232854.png)  
+![image](微信图片_20240311232907.png)  
 Hi, I am trying to finish lab4. Therefore, I logged in my ieng6-203 with  
 `ssh hugu@ieng6-203.ucsd.edu` and clone the repository that forked. Then I `cd` the path to lab7.         
 However,when I tried to run the test with `bash test.sh`, it said initialization error.     
@@ -36,6 +39,8 @@ TA
 
 **Error Resolved by the student**  
 -- 
+
+![image](微信图片_20240311233049.png)  
 Thank you, TA! I after switch to the ieng6-201, the `bash test.sh` is working as expected  and
 the test compiles. Switching to ieng6-201 and rerunning `bash test.sh`,  
 I no longer get the initialization error. The issue was indeed due to being on the wrong server.  
