@@ -42,10 +42,12 @@ Key Pressed(vim): `/index1 <enter> n n n n n n n n n e r 2 <Esc> <Shift +;> wq! 
 ![Image](微信图片_20240311213927.png)   
 Explanation: After fixed the code, I reran the tests and found out they all passed. Again, I pressed  
 <tab> helps me fill in the rest of test.sh.  
-Key Pressed:  `bash <space> t <tab> <enter>`  
-  
-**Step 9** 
---  
+Key Pressed:  `bash <space> t <tab> <enter>`     
+
+      
+
+**Step 9**   
+--    
 ![Image](微信图片_20240311213931.png)   
 Explanation: Finally, I first used git add the `ListExample.java` file to stage changes for the next  
 commit, then I used git commit to commit and pushed my staged changes with -m to include my commit message "Update"  
