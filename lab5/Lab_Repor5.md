@@ -32,8 +32,8 @@ your lab work, which might resolve the errors you're encountering.
 Hope this helps!
 
 Best,
-
 TA  
+
 **Error Resolved by the student**  
 -- 
 Thank you, TA! I after switch to the ieng6-201, the `bash test.sh` is working as expected  and
