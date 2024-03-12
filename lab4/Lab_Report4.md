@@ -32,20 +32,25 @@ the `index1` I needed. Then I pressed `e` to jump to the last character in the `
 `2` to open the replace mode and replace the last character `1` to `2`. Afterall, I pressed `<Esc>` to   
 go back to normal mode and pressed `:wq!` to save and quit the file.    
 Key Pressed: `vim <space> <Shift + l> <tab> .java <enter>`     
-Key Pressed(vim): `/index1 <enter> n n n n n n n n n e r 2 <Esc> <Shift +;> wq <enter>`  
+Key Pressed(vim): `/index1 <enter> n n n n n n n n n e r 2 <Esc> <Shift +;> wq! <enter>`  
 
 
 
 **Step 8** 
 --  
 
-Explanation: 
-Key Pressed:   
+Explanation: After fixed the code, I reran the tests and found out they all passed. Again, I pressed  
+<tab> helps me fill in the rest of test.sh.  
+Key Pressed:  `bash <space> t <tab> <enter>`  
+
 
 **Step 9** 
 --  
 
-Explanation: 
-Key Pressed: 
+Explanation: Finally, I first used git add the `ListExample.java` file to stage changes for the next  
+commit, then I used git commit to commit and pushed my staged changes with -m to include my commit message "Update"  
+Key Pressed: `git <space> add <space> <Shift + l> <tab> .java <enter> , and then
+git <space> commit <space> -m <space> <Shift + '> <Shift + U>pdate <Shift + '>
+<enter> , and lastly git <space> push <space> origin <space> main <enter>`
 
 
