@@ -1,4 +1,5 @@
-Step 4  
+**Lab Report 4 - Huanchang Gu A17122477**   
+--  
 
 Step 5
 Step 6
