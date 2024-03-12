@@ -37,7 +37,7 @@ TA
 **Error Resolved by the student**  
 -- 
 Thank you, TA! I after switch to the ieng6-201, the `bash test.sh` is working as expected  and
-the test compiles. Switching to ieng6-201 and rerunning `bash test.sh`,   
+the test compiles. Switching to ieng6-201 and rerunning `bash test.sh`,  
 I no longer get the initialization error. The issue was indeed due to being on the wrong server.  
 
 **Step 2**
