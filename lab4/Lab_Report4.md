@@ -3,7 +3,7 @@
 
 **Step 4**  
 --  
-![Image](微信图片_20240311213931.png) 
+![Image](微信图片_20240311213931.png)    
 Explanation: First, I logged in my `ieng6-201` account using ssh.  
 Key Pressed: `ssh <space> hugu@ieng6-201.ucsd.edu <enter>`  
 
