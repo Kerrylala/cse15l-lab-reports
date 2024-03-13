@@ -12,7 +12,7 @@ Key Pressed: `ssh <space> hugu@ieng6-201.ucsd.edu <enter>`
 ![Image](微信图片_20240311213906.png)   
 Explanation: Then, I copy the `SSH URL https://github.com/Kerrylala/lab7.git` to clipboard from the github repository  
 by pressing `copy url to clipboard` command. Then, I cloned it with SSH.  
-Key Pressed: `git <space> clone <space> <Command + V> <enter>`
+Key Pressed: `git <space> clone <space> <Ctrl + V> <enter>`
 
 **Step 6**  
 -- 
